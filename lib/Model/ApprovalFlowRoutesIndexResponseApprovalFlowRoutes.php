@@ -221,6 +221,10 @@ class ApprovalFlowRoutesIndexResponseApprovalFlowRoutes implements ModelInterfac
             self::USAGES_PAYMENT_REQUEST,
             self::USAGES_APPROVAL_REQUEST,
             self::USAGES_DOC_APPROVAL,
+            'InvoiceIssue',
+            'QuotationIssue',
+            'DeliverySlipIssue',
+            'PurchaseOrderIssue',
         ];
     }
 
